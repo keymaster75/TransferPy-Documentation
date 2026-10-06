@@ -56,5 +56,5 @@ code { font-size:.95em; }
 @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
 
 .hero-copy { min-width:0; }
-.hero-wizard { display:block; width:100%; height:auto; }
-@media(max-width:850px) { .hero { grid-template-columns:1fr; } .hero-wizard { width:min(100%,460px); justify-self:center; } }
+.hero-wizard { display:block; width:85%; max-width:340px; height:auto; justify-self:center; }
+@media(max-width:850px) { .hero { grid-template-columns:1fr; } .hero-wizard { width:min(80%,320px); } }

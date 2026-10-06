@@ -1,0 +1,10 @@
+.idea/
+.vscode/
+.env
+.env.*
+*.pem
+*.db
+*.sqlite*
+license.json
+.DS_Store
+Thumbs.db

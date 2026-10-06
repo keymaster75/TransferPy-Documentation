@@ -15,7 +15,7 @@ a:focus-visible { outline:3px solid #f59e0b; outline-offset:5px; }
 nav { display:flex; flex-wrap:wrap; gap:16px; font-size:14px; }
 nav a { color:var(--muted); text-decoration:none; }
 nav a:hover { color:var(--blue); text-decoration:underline; }
-.hero { padding:48px; border-radius:24px; color:#fff; background:linear-gradient(120deg,#112846,#164b85); }
+.hero { display:grid; grid-template-columns:minmax(0,1.4fr) minmax(0,1fr); align-items:center; gap:20px; padding:48px; border-radius:24px; color:#fff; background:linear-gradient(120deg,#112846,#164b85); }
 .hero h1 { margin:0; font-size:clamp(40px,7vw,64px); letter-spacing:-2px; line-height:1.15; }
 .hero p { max-width:760px; }
 .hero .lead { font-size:clamp(21px,4vw,29px); margin:18px 0; font-weight:550; }
@@ -54,3 +54,7 @@ code { font-size:.95em; }
 .footer p { margin:0; }
 @media(max-width:650px) { .container,.site-header { width:calc(100% - 28px); } .hero { padding:28px 22px; border-radius:16px; } .cards { grid-template-columns:1fr; } .brand-subtitle { display:none; } main > section:not(.hero) { margin-top:34px; } .card,.contact,.callout { padding:20px; } }
 @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+
+.hero-copy { min-width:0; }
+.hero-wizard { display:block; width:100%; height:auto; }
+@media(max-width:850px) { .hero { grid-template-columns:1fr; } .hero-wizard { width:min(100%,460px); justify-self:center; } }

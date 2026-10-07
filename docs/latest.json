@@ -1,0 +1,10 @@
+{
+  "format": "transferpy-desktop-update",
+  "format_version": 1,
+  "platform": "windows-x64",
+  "version": "0.1.1",
+  "published_at": "2026-10-07T16:14:08Z",
+  "download_url": "https://github.com/keymaster75/TransferPy-Documentation/releases/download/v0.1.1/TransferPy-Setup-0.1.1-candidate.exe",
+  "sha256": "3c60aa617a033ceb64f1e449619edf06a4c0ed2ce20d36430c6d37d8e176a1d6",
+  "notes": "Zaključavanje i ponovno otvaranje studija uz razlog; arhivske verzije podataka, priloga i radnih Word/PDF izveštaja; izbor opsega godina i pregled istorije; dopunjene Pomoć, Rečnik i O aplikaciji; ručna provera ažuriranja. Kućna proba potvrđena. Pre instalacije napraviti backup i zatvoriti TransferPy. Posle pokretanja osvežiti prikaz sa Ctrl+F5. Dokumenti ostaju radni materijal za stručni pregled."
+}

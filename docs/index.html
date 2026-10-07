@@ -21,7 +21,7 @@
     <p class="lead">Preglednija priprema studija transfernih cena.</p>
     <p>Radni alat koji povezuje klijenta i studiju sa transakcijama, izvorima, obračunima i obrazloženjima. Namenjen je stručnjacima koji pripremaju i pregledaju studije i saradnicima koji unose podatke.</p>
     <div class="actions"><a class="button primary" href="#tok">Kako se radi</a><a class="button secondary" href="mailto:aleksica@gmail.com?subject=TransferPy%20%E2%80%94%20demo">Zatraži demo</a></div>
-    <div class="badges"><span>Razvojni kandidat 0.1.0</span><span>CUP / TNMM</span><span>Windows · lokalni rad</span><span>Word / PDF / Excel</span></div>
+    <div class="badges"><span>Desktop izdanje 0.1.1</span><span>CUP / TNMM</span><span>Windows · lokalni rad</span><span>Word / PDF / Excel</span></div>
     </div>
     <img class="hero-wizard" src="images/transferpy-wizard.webp" width="1536" height="1024" alt="ARPy čarobnjak predstavlja TransferPy znak sa dve suprotne strelice" decoding="async" fetchpriority="high">
   </section>
@@ -43,6 +43,7 @@
       <article class="card"><h3>Pozajmice i kamate</h3><p>Periodi salda, dani, godišnja osnovica i stope sa izvorima. Pregled obračunate i proknjižene kamate i zaseban Excel radni papir.</p></article>
       <article class="card"><h3>Unos iz Excela i radni papiri</h3><p>Podržane forme omogućavaju masovni unos iz kopiranih Excel redova, sa validacijom. Excel izvozi obuhvataju finansije, poređenja, TNMM, pozajmice i korekcije.</p></article>
       <article class="card"><h3>Radni Word/PDF i prilozi</h3><p>Izvoz objedinjuje sačuvani narativ, tabele, grafikone, izvore i spisak priloga. Radni ZIP paket sadrži dokumente i označene originale priloga.</p></article>
+      <article class="card"><h3>Zaključavanje i arhive studije</h3><p>Ovlašćeni stručnjak zaključava studiju uz razlog i izbor finansijskog opsega. Čuvaju se nepromenljivi snimak podataka i priloga i tadašnji radni Word/PDF. Ponovno otvaranje zahteva razlog; prethodne arhive ostaju sačuvane.</p></article>
       <article class="card"><h3>Pregled i odobravanje</h3><p>Korisničke uloge, istorija izmena i posebni statusi metode, obračuna, zaključka i korekcije pomažu da se jasno vidi šta je još nacrt.</p></article>
     </div>
     <aside class="callout subtle"><h3>Opciona pomoć pri izboru metode</h3><p>Radna preporuka koristi sačuvane činjenice i privremena transparentna pravila; prikazuje kandidate i podatke koji nedostaju. Može se preskočiti. Predlog nije potvrđena metoda, a stručna provera pravila ostaje deo razvoja.</p></aside>
@@ -57,6 +58,7 @@
       <li><h3>Proverite rezultat i stručne statuse</h3><p>Pregledajte jedinice, valute, periode i izvore. Stručni zaključak, odobrenje obračuna i poreska korekcija imaju zasebne potvrde.</p></li>
       <li><h3>Dopunite narativ i priloge</h3><p>U kartici <strong>Pregled</strong> sačuvajte opis poslovanja i funkcionalnu analizu. Dodajte dokumente sa izvorom i označite priloge za spisak u izvozu.</p></li>
       <li><h3>Preuzmite i pregledajte radni dokument</h3><p>Izaberite finansijski opseg godina i preuzmite Word, PDF ili radni ZIP. Nepotpuni podaci i nacrti zahtevaju dalju proveru. Izvoz ne potvrđuje niti zaključava studiju.</p></li>
+      <li><h3>Sačuvajte arhivsku verziju</h3><p>U kartici <strong>Pregled</strong> ovlašćeni korisnik može zaključati studiju uz razlog i opseg godina. Studija prelazi u režim samo za pregled, a arhivski dokumenti ostaju dostupni. Zaključavanje ne potvrđuje nedovršene analize niti zamenjuje stručni zaključak. Ranije arhive se ne dopunjuju retroaktivno.</p></li>
     </ol>
     <p class="note">Detaljniji koraci dostupni su u karticama <strong>Pomoć</strong> i <strong>Rečnik</strong> u aplikaciji. Dugmad Raširi / Skupi menjaju prikaz bez brisanja podataka.</p>
   </section>
@@ -69,7 +71,8 @@
       <article class="card"><h3>Pristup po isteku</h3><p>Desktop bez važeće licence ostaje dostupan za prijavu, pregled, izvoz i backup. Unos i izmene zahtevaju važeću licencu; korisnička uloga i dalje određuje ovlašćenja.</p></article>
       <article class="card"><h3>Backup i prenos studije</h3><p>ADMIN u pokretaču može napraviti SQLite rezervnu kopiju i tehnički proveriti vraćanje u privremeni folder. Strukturisani paket jedne studije služi prenosu; radni ZIP sa Word/PDF dokumentima ima drugu namenu.</p></article>
     </div>
-    <p class="note">Desktop je razvojni kandidat. Aktivacija i nadogradnje proveravaju se na izdvojenoj instanci pre demonstracije. Poslovni serverski režim ima zasebnu konfiguraciju. Automatska provera ažuriranja preko <code>latest.json</code> je planirana.</p>
+    <div class="actions"><a class="button primary" href="https://github.com/keymaster75/TransferPy-Documentation/releases/download/v0.1.1/TransferPy-Setup-0.1.1-candidate.exe">Preuzmi TransferPy 0.1.1 za Windows</a><a class="button secondary" href="https://github.com/keymaster75/TransferPy-Documentation/releases/tag/v0.1.1">Detalji izdanja</a></div>
+    <p class="note">Izdanje 0.1.1 prošlo je kućnu probu nadogradnje. Pre instalacije napravite provereni backup i zatvorite TransferPy. Posle pokretanja osvežite prikaz sa <strong>Ctrl+F5</strong> ako pregledač prikazuje prethodnu verziju. U <strong>O aplikaciji → Proveri ažuriranja</strong> ručno proveravate objavljenu verziju preko <code>latest.json</code>; preuzimanje i instalaciju pokrećete sami. Za unos i izmene potrebna je važeća licenca. Poslovni serverski režim ažurira administrator zasebno.</p>
   </section>
 
   <section id="kontakt" class="contact" aria-labelledby="kontakt-naslov">
@@ -79,7 +82,7 @@
     <p><strong>Aleksandar Aleksić</strong> · <a href="mailto:aleksica@gmail.com">aleksica@gmail.com</a></p>
   </section>
 </main>
-<footer class="container footer"><p>TransferPy · Početna dokumentacija · Ažurirano 6. oktobra 2026.</p><a href="https://github.com/keymaster75/TransferPy-Documentation">Dokumentacioni repozitorijum</a></footer>
+<footer class="container footer"><p>TransferPy · Dokumentacija · Ažurirano 7. oktobra 2026.</p><a href="https://github.com/keymaster75/TransferPy-Documentation">Dokumentacioni repozitorijum</a></footer>
 <a class="back-to-top" href="#vrh" aria-label="Vrati se na vrh stranice"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="m6 14 6-6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Na vrh</a>
 </body>
 </html>
